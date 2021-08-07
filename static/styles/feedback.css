@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif !important;
+    overflow-x: hidden !important;
+}
+
+.center-layout{
+    display: flex;
+    align-items: center !important;
+}
+
+.logo{
+    width: 5rem !important;
+}
+
+.navbar{
+    background-color: white !important;
+    width: 100vw !important;
+}
+
+.navbar .nav-link{
+    font-size: 1.1rem !important;
+    margin-right: 1rem !important;
+    position: relative;
+}
+
+.navbar .nav-link:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #3d3d3a;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar .nav-link:hover:before {
+    visibility: visible;
+    width: 100%;
+}
+
+.mainform{
+    height: 100% !important;
+    width: 100vw !important;
+    padding: 5rem 0 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #C9D6FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.mainform .formradio{
+    display: flex;
+    margin-top: 3%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-check{
+    font-size: 20px;
+    margin-right: 8%;
+}
+
+input[type=radio] {
+    margin-top: 8%;
+}
+
+.mainform .formfill{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+span{
+    display: flex;
+}
+
+.formfill label{
+    display: flex;
+    margin-top: 5%;
+}
+
+.qrcode{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qrcode img{
+    width: 12rem;
+}
+
+.qrcontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+#myModal .modal-body .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#myModal .modal-body .container .h1pay{
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+#myModal .modal-body .container .h2pay{
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width:768px) {
+    .mainform .formradio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:410px) {
+    .mrl{
+      display: none;
+    }
+}

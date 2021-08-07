@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../static/styles/pae.css">
+    <title>Musically</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#"><img src="../static/images/dark-rider-JmVaNyemtN8-unsplash-min.jpg"
+                alt="logo of musically website" class="logo img-fluid"> Mr<sub
+                style="font-size: 10px;"><small>&</small></sub> Learn<small class="mrl" style="font-size: small;">-Music
+                Rent and
+                Learn</small></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mx-auto"></div>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/services">Services <span
+                            class="sr-only sr-only-focusable">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="/pae">Partner and Earn</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/feed">FeedBack</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="maincontainerpae">
+        <div class="logoandname">
+            <div class="logopae"><img src="../static/images/dark-rider-JmVaNyemtN8-unsplash-min.jpg" alt="Logo" /></div>
+            <div class="startname">Mr<sub style="font-size: 10px;">&</sub> Learn</div>
+            <div>
+                <h2><small>Music Rent and
+                        Learn</small></h2>
+            </div>
+        </div>
+        <div class="contentearn">
+            <h1>Start Earning More Today</h1>
+            <p>Sign up now and earn.</p>
+            <button type="button" class="btn btn-outline-primary btn-lg" id="btnsignin"><i class="fa fa-user-plus">Sign
+                    In</i></button>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="#"><img src="../static/images/saregajpg-min.jpg" alt="inn_logo" /></a>
+                <p>Lorem, ipsum dolor.</p>
+            </div>
+            <div class="col-md-3">
+                <a href="#"><img src="../static/images/saregajpg-min.jpg" alt="ccs_logo" /></a>
+                <p>Lorem, ipsum dolor.</p>
+            </div>
+            <div class="col-md-3">
+                <a href="#"><img src="../static/images/saregajpg-min.jpg" alt="inn_logo" /></a>
+                <p>Lorem, ipsum dolor.</p>
+            </div>
+            <div class="col-md-3">
+                <a href="#"><img src="../static/images/saregajpg-min.jpg" alt="ccs_logo" /></a>
+                <p>Lorem, ipsum dolor.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="formcontainerstud">
+        <div class="paidinstru">
+            <h1>
+                If you have any musical instrument which U dont use or only uses sometimes than let instrument generate
+                income for u.
+            </h1>
+            <h2>Rent Us and get Paid enough.Just Fill the form below and we will reach you.</h2>
+        </div>
+        <form class="form-horizontal" action="/student" method="POST">
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="name">Full Name:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="name" name="firstname" placeholder="Enter Full name"
+                        required='Please fill out this field'>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="phnnumber">Whataspp Number:</label>
+                <div class="col-sm-10">
+                    <input type="tel" class="form-control" id="phnnumber" name="phoneno"
+                        placeholder="Enter your Number." required='Please fill out this field'>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="email">Email:</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="email" name="Email" placeholder="Enter your Email"
+                        required='Please fill out this field'>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="instru">Which Instument you have?</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="instru" name="instru" placeholder="Guitar.."
+                        required='Please fill out this field'>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <div class="checkbox">
+                        <label><input type="checkbox"> Remember me</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10" id="submit">
+                    <button type="submit" class="btn btn-outline-primary btn-lg">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+    <div class="formcontainerteach">
+        <div class="paidinstru">
+            <h1>
+                If you know how to teach any instrument than teach our students part time and generate an income.
+            </h1>
+            <h2>Just fill the form below and you are Done.</h2>
+        </div>
+        <form class="form-horizontal" action="/teacher" method="POST">
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="name">Full Name:</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="name" name='firstname1' placeholder="Enter Full name"
+                        required='Please fill out this field'>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="phnnumber">Whataspp Number:</label>
+                <div class="col-sm-10">
+                    <input type="tel" class="form-control" id="phnnumber" name='phoneno1' ,
+                        placeholder="Enter your Number." required='Please fill out this field'>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="email">Email:</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="email" name='Email1' placeholder="Enter your Email"
+                        required='Please fill out this field'>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="instru" style="display: inline;">Which Instument you know to
+                    play?</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="instru" name="instru1" placeholder="Guitar.."
+                        required='Please fill out this field'>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <div class="checkbox">
+                        <label><input type="checkbox"> Remember me</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10" id="submit">
+                    <button type="submit" class="btn btn-outline-success btn-lg">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+    <footer class="bg-light text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;" href="#!"
+                    role="button"><i class="fa fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;" href="#!"
+                    role="button"><i class="fa fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39;" href="#!"
+                    role="button"><i class="fa fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;" href="#!"
+                    role="button"><i class="fa fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca;" href="#!"
+                    role="button"><i class="fa fa-linkedin"></i></a>
+                <!-- Github -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #333333;" href="#!"
+                    role="button"><i class="fa fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">Mr<sub style="font-size: 10px;"><small>&</small></sub>
+                Learn</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+<script src="../static/js/pae.js"></script>
+
+</html>
